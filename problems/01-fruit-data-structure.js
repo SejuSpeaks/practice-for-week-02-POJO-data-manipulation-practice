@@ -10,7 +10,7 @@ console.log(firstFruitObject(fruits));
 */
 
 function firstFruitObject(fruits) {
-    // Your code here
+    return console.log(fruits[0]);
 }
 
 
