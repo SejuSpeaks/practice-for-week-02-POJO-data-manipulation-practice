@@ -10,10 +10,10 @@ console.log(firstFruitObject(fruits));
 */
 
 function firstFruitObject(fruits) {
-    return console.log(fruits[0]);
+    return fruits[0];
 }
 
-
+console.log(firstFruitObject(fruits));
 
 /* 02. `lastFruitObject()` - Return the last object in the fruits array
 
@@ -24,9 +24,10 @@ console.log(lastFruitObject(fruits));
 */
 
 function lastFruitObject(fruits) {
-    // Your code here
+let end = fruits.length -1;
+   return fruits[end]
 }
-
+console.log(lastFruitObject(fruits));
 
 /* 03. `indexFruitObject()` - Return one object at the given index from the
 fruits array. The function should have two parameters, the array and the
@@ -39,10 +40,10 @@ console.log(indexFruitObject(17, fruits));
 */
 
 function indexFruitObject(index, fruits) {
-    // Your code here
+    return fruits[index];
 }
 
-
+console.log(indexFruitObject(17, fruits));
 /* 04. `fruitNames()` - Return a list of all of the fruit names
 
 console.log(fruitNames(fruits));
